@@ -3,7 +3,7 @@
 // 2. create Canvas
 // 3.if element is alive color white, if dead leave it as it is , since background is black
 // 4.create new array to store next state of each element
-// 5. use rules to find next state, ie if cell is alive and no of neighbors<2 or > 3, then it dispatchEvent, else it is alive
+// 5. use rules to find next state, ie if cell is alive and no of neighbors<2 or > 3, then it dead, else it is alive
 // 6. if cell is dead and neighbors==3,it becomes alive
 // 7. make grid=next,so that grid with new states is passed to function
 
